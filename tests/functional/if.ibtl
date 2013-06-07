@@ -1,0 +1,4 @@
+; 0 2 = if 0 . cr else 1 . cr endif 
+(if (= 0 2) (println 0) (println 1))
+; 0 2 < if 1 . cr else 0 . cr endif
+(if (< 0 2) (println 1) (println 0))
